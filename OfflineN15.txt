@@ -1,0 +1,1350 @@
+17April
+...........................
+JDK,JRE,JVM
+............................
+complie....syntax error
+runtime....
+debugging
+............................
+Class NewBatch{newBatch newbatch Newbatch
+
+//newMrngBatch
+/* jjj (select line of code and press: shift+ctr+/)
+jjj
+kkkk */
+}
+workspace>java project>package>class
+...............................
+Class Batch(){
+variables
+methods
+
+}
+
+.................................
+
+18April
+.............
+Create new project
+Create class>package>class
+write down multiplication,division,sustraction and addition of 4 numbers.
+create separate classes for each operation.
+
+...................................................................
+
+21April Rivision on basic coverd topics............
+.............................
+Class Add{
+members.....
+Variables and methods
+int var=20;//variable declaration
+int ab;
+char v='';//compile time error
+String s="";
+ void sub(int a){
+logical java code
+}
+
+}
+.........................................
+Data Types:
+int float short double Boolean char
+..........................
+Numeric 
+
+Class Try{
+ int a;//0
+float a=20.4;
+
+Boolean s;//false
+
+String str;//null
+String str1="sdfghghh";
+char ch='f';
+}
+..........................................
+
+Workspace>Java project>package>class>
+
+main()--- execution point of java program
+--without main() cant run java program.
+...........................................
+Object creation:
+Class Try{
+ int a=30;
+void add(){logic}
+jjjjj
+main(){
+Try objName1;//refernce variable
+Try objName=new Try();//Object creation line/instance=object
+objName.add();//method calling
+}
+
+}
+........................................
+22April
+Method creation,calling
+2 Tasks
+local var and global var
+.............................................
+23April
+
+1)Write a program to print Student detail in given format. (input – name, age, class, subject)
+o/p: Student Name is name and he is age yrs old. He is from class and joined course subject.
+...................................................
+Debugging.............
+.....................................
+24April
+Scanner class:
+--It is a class in java.
+--if we want to enter input from user then need to use 
+Scanner class
+--..............................
+25April
+Operators:
+
+--Operators are symbols which we use to apply logic or some operation in our java programs.
+Types:
+Arithmatic Operators(+,-,*,/)
+Assignment Operators(+=,-=,*=,/=,%=) eg. a+=b-->a=a+b
+relational Operators(<,>,<=,>=) true / false
+logical Operators(&&,||)
+equality Operators(==,!=)
+unary Operators
+increment 2++,decrement 4--
+post : 5++,4--      and pre :++5 ,--4
+
+i=4			i=3;
+i++			++i;
+sop(i);//4		sop(i)//4
+i+1=5+1			i+2=?//4+2=6
+sop(i)//6		sop(i)//6
+
+ternary Operators
+(Condition) ? correct:wrong
+    (10>8)  ? yes:No
+
+if(10>8){
+sop(yes)
+}else{
+sop(No)
+}
+
+bitwise Operators
+
+logical operator
+&&, ||
+condition1 && condition2
+T    	   &&   F     =F
+F          &&   T     =F
+T          &&   T     =T
+F          &&   F     =F
+
+condition1 || condition2
+T    	   ||   F     =T
+F          ||   T     =T
+T          ||   T     =T
+F          ||   F     =F
+.............................
+29April
+Method return type
+OOPS concept.....
+
+void add(parameters){
+logic
+}
+
+int add(int a,String b){
+return 3;
+}
+
+String add(){
+return "ssss";
+}
+.................................
+30April
+Revise session
+
+void multiplication(int a,boolean s){
+int b;
+//code here
+}
+
+String multiplication(){
+//code here
+string abc;
+return abc;
+}
+int multiplication(){
+//code here
+string abc;
+return 2.2;
+}
+
+........................................................
+02May..
+Control-Conditional statements..
+if_else:
+if(condition){
+if(){
+}else{
+}
+
+}else{
+if(){
+}else{
+}
+
+}
+.............
+while()
+
+while(condition){
+//statements
+increament/decreament
+}
+statemnt
+
+.................................
+05May
+for()
+
+for(initialization;condition;increament/decreament)
+int i;
+for( i=0;i<10;i++){//1  2 9 10 10<10
+//logic..code here..value of i...0,1,2....8,9,
+}
+
+
+
+o/p
+The Kiran Academy....5times
+starting 0/1 ending 4/5
+i=0 i<5....i=0,1,2,3,4
+i=1 i<=5...i=1,2,3,4,5
+
+for(int i=1;i<=5;i++){
+sop("The Kiran Academy")
+}
+
+
+10%5==0
+
+for_each
+
+
+
+switch case
+do_while()
+
+
+...........................................
+OOPS CONCEPT-08May
+Inheritance:08May
+....
+14May
+Types of inheritance:
+Single inheritance
+multiple inheritance
+multilevel inheritance
+hierarchical inheritance
+hybrid inheritance
+
+--multiple inheritance not allowed in java in case of classes
+BUT
+--multiple inheritance allowed in java in case of Interfaces
+
+
+
+09May
+Polymorphism:
+Compile time Polymorphism
+Runtime Polymorphism
+Overloading:Compile time Polymorphism
+--same method name within class use multiple times
+--while doing method overloading have remember
+some points:
+>method name must  be same.BUT
+>number of parameters should be change
+>Types of parameters should me different/change
+>sequence of paramerters should be change
+
+
+
+class A{
+void m1(int a){
+
+}
+void m1(int a,int b){
+
+}
+void m1(int a,String b){
+
+}
+
+void m1(String a){
+
+}
+}
+Overriding-runtime Polymorphism
+--same method from one cls use in another class as it is.(parent/super-child/sub cls)
+points:
+--should be same method name.
+--number of parameters should be same.
+--types of parameters should be same.
+--sequence of parameters should be same.
+--return type of method should be same.
+
+......................................................................
+
+13May
+OOPS Concept
+Abstraction:
+--Abstract keyword in java
+--only with class and method
+--when we wants to hide implementation of method that time have to use abstraction
+--abstract methods  means-without body/block,without implementation,only declaration
+--if class is abstract then need to write abstract keyword before class name.
+--we cannot create object of abstract cls.
+--it must have to override abstract methods if we inherited that cls.
+--Normal class does not allow abstract methods.
+--Abstract class allow both abstract and normal methods.
+
+
+abstract class A{
+void m1(){
+logic here
+}
+void m2(){}//just declaration
+abstract void m3();
+void m4(){}
+void m5(){}
+}
+ Class B extends A{
+void m2(){
+
+}
+}
+
+Interface:
+--like a class BUT its not a class
+--Var: public static final
+--methods: abstract(only declaration).
+Class A{members}
+
+Interface A{
+int a;
+void m1();
+}
+Interface I1{
+void studentsDetails();
+void structure();
+void color();
+}
+
+.....................................
+14May
+Encapsulation:
+private-access specifier
+get() and set()-access specifier must be public
+
+cls Credentials{
+private int id;
+Private String pass;
+Public getId(){}
+Public setId(){}
+
+
+}
+............................................................
+15May
+Constructor
+--same name with class name
+--dont have any return type
+--2Types:
+>default constructor
+>parametrized constructor
+--calling:
+>default constructor will always call automatically
+>if we want to create parametrized constructor then need to pass parameters in constructor.
+>if there will be both constructor then preference will go to parametrized constructor.
+--Default constructor call once object will create.
+--ONLY constructor overloading possible.(not overriding)
+class Batch{
+void m1(String str){}
+//void Batch(){}
+Batch(int a){
+sop("2"+a)
+}
+Batch(int a,String){
+sop("2"+a)
+}
+Batch(int a,int b,String s){
+sop("2"+a)
+}
+main(){
+Batch obj=new Batch(4);//object creation line
+Batch obj11=new Batch(4,"gg");
+}
+}
+.............................................
+16May
+Packages..
+--it is a collection classes
+package--must be in 1st line of class
+import
+
+Demand Test:
+Offline N15 Basics,OOPS Concept,Constructor
+
+..........................................................
+20May
+static,final keyword
+
+Static--it is a keyword in java
+--block,veriables,method
+--if we declare class members-(veriables,method) as a 
+STATIC then we no need to call them with object.
+>>we can call static members using class name.
+--preferace will goes towards static members means (static members will call before non static)
+{
+//code
+}//instance block/non static block
+
+static {
+//code
+}//static block
+--static method can access only static variables.
+--non static method  allow both static and non static members.
+--static is called as one copy storage.
+.......................................
+final
+--it is a keyword in java
+--final can be-class,methods,variables
+--if variables are final-we cannot reassign(cannot change the value of variables) them.
+--if methods are final- we cannot override that method.
+--if class is final - we cannot inherits that cls
+>>>final variables try to write var name in capital letters.(only for variables)
+........................................
+21May
+String
+--it is from java.lang pckg
+--It is predefined class.
+--it also work as a data type--int float String
+--immutable (cannot change value of existing string).
+--we will use few methods
+--using length() can get the size of string.
+--Starting index always (0) and end index (lenght-1)
+--here is no reverse()
+>we have to make some logical program so that given string will be reverse
+.....................................
+22May
+StringBuilder/Buffer
+--mutable
+--if we want to reverse a string then we can use directly reverse()
+--no need to store new string in a new variable.
+
+.........................................................
+23May
+Doubts & Revision
+
+package...pranay
+Encapsulation...payal
+Polymorphism...akshata
+..............................
+26May
+super,this keywords
+super
+--it is a keyword in java
+--keyword refers to super class object 
+/constructor/members
+--we can use super keyword in a child/sub cls
+--can use super keyword with var,method or constructor.
+eg. super.a--will call super cls var, super.m1()--will call super cls method,
+super()--will call super cls constructor
+
+this
+--it is a keyword in java.
+--it refers to current cls object(members).
+--this.a
+--it helps to differentiate global and local var 
+(will use only one class not 2 classes)
+......................................................
+27May
+Array
+1D,2D
+---its fix size
+---Collection of similar data type
+---Declaration
+Data type arrayName[size]={elements}
+---size using length property
+int a[]={2,4,1,5}
+a.length;
+Start index=0
+end/last index=(size-1)
+[2,4,1,5]
+--we cannot increase or decrease the size of array according to us...
+if we try to get element beyond the size of array then it will show an exception (ArrayIndexOutOfBoundsException).
+
+for(int i=0;i<=size-1;i++){
+a[i];a[0]=2,a[1]=4...a[3]=5
+}
+
+int a[]=new int[5];
+a[0]=2;
+a[1]=1;
+a[2]=5;
+a[3]=2;
+a[4]=3;
+
+......................................
+28-05-2025
+Array 2D
+int a[][]={{2,3},{4,1},{5,3}}
+
+int a[R][C]= {{3,5},{2,1,4},{6,4}};
+
+a[0][0]=3
+a[0][1]=5
+a[1][0]=2
+a[1][1]=1
+a[1][2]=4
+a[2][0]=6
+a[2][1]=4
+
+forEach
+....................................
+29May
+Exception Handling
+cls{
+1
+2
+(try
+3....exception
+)catch()
+4
+5
+6
+
+}
+try_catch block
+
+try{
+///excpetion code
+}catch(exceptionName){
+
+}
+--Object(C)>Throwable(I)>Exception(I)>..
+Exception>Unchecked exception and checked exception
+--All type of Unchecked exceptions and checked exceptions
+are classes.
+Unchecked exception:
+--due to programmer mistakes.
+--no need to handle using try_catch block
+--can solve it programmer itself by correction in code
+--but for safer side developers practice to handle exception where he knows the possibility of exception.
+--will occurs at run time.
+
+checked exceptions:
+---these type of exceptions does not occurs due to programmer/code mistakes.
+---we should have to have handles checked exceptions using try_catch block or throws keyword.
+---will occurs at compile time.
+
+---throws***
+
+try{
+//exception code
+
+}catch(exceptionName){
+//sop
+}
+.........
+try{}
+catch(exceptionName1){}
+catch(exceptionName2){}
+catch(exceptionName3){}
+......................
+try{}
+catch(){}
+try{}
+catch(){}     Error
+try{}
+try{}
+catch(){}
+...................
+try{
+try{}
+catch(){}
+}
+catch(){
+try{}
+catch(){
+try{}
+catch(){}
+}
+}
+}
+}
+--always try should follow catch
+--try can follow multiple catch
+--nested try_catch allowed
+.................................................
+---throws***
+throw and throws
+throws
+---handle exception at method level
+---implicitly handle
+
+throw
+--explicitly
+--inside a method
+...........................
+try{
+int a=10/0;
+}
+catch(Exception){}
+catch(ArithmaticException){}
+catch(Throwable){}
+''''''''''''''''''''''''''''''''
+30May
+Exception Handling
+......................................
+02June
+Collections--classs
+Collection
+--it is an interface
+--set of classes and interfaces
+--belongs to java.util pckg
+--it works as a framework
+--can check size/length using size()
+List,Set,Map....interfaces
+List--
+--duplicates allowed
+--orderd
+--null allowed/not allowed 
+--we can add elements in arraylist using add().
+Arraylist,LinkedList,vector
+task-check difference between array and arraylist.
+Arraylist---
+--it is class and implements list interface
+--duplicates allowed
+--orderd
+--null allowed
+--we can add elements in arraylist using add().
+--can check size/length using size()
+--we can fetch elements from AL using get().
+...............................
+set:
+--duplicates not allowed
+--ordered/unordered maintain
+--null allowed
+--it is an interface
+HashSet-----
+---it is a class
+---it implements Set interface
+---duplicates not allowed
+---unordered 
+---can add elements using add().
+---null aloowed
+
+TreeSet:
+---it is a class
+---it implements Set interface
+---duplicates not allowed
+---can add elements using add().
+---it shows ascending ordered(sorted)
+---null not allowed---if we tries to insert null hen show an exception like NullPointerException.
+
+Map:
+---It is an interface.
+---values store in key-value pair.....HashMap<Key, Value>
+---null allowed /not allowed
+---sequence should show corresponding to key
+---values can be duplicate but key should be unique.
+---we can add values using put()
+HashMap:
+---It is class.
+---It implements an Map
+---values store in key-value pair
+---null keys and values are allowed
+---values can be duplicate but key should be unique.
+---we can add values using put() and putAll()
+---unodered(keys)
+.......
+keySet()....It store all keys from hm. will get values correspoding to keys
+values()....all values stored
+entrySet()....store all keys and values.
+---getKey()...we can get keys
+---getvalue()...we can get value
+
+....................................
+05June
+File Io
+...........................
+06 June
+multithreading
+.........................
+class A{
+m1(){}
+m2(){}
+m3(){}
+
+A a=new A();
+a.m2();
+a.m1();
+a.m3();
+}
+.........
+Using extend Thread class
+Using implementing Runnable interface
+--belongs to java.lang pckg
+ --have to write our logical code inside run()
+---run()from Thread class.
+ --start() it is in Thread cls only>>(Not in Runnable interface)...internally pick run() and will execute code inside run().
+----execution will be happen randomly
+...........................................
+09June
+MySQL database..
+INstallation Maysql
+Database create
+table create
+insert data into table.
+
+1)create database
+create database DBNAME;
+2)tell which db do u want
+use DBNAME;
+Database changed(after picking specific db).
+
+Create table 
+create table student(studId int,studName varchar(20),studAge int);
+
+insert data
+insert into student values(11,'AA',20);
+.....................................
+10June2025
+
+---If we want to fetch data from table then have to use select query.
+ select *from tableName;
+---* denotes complete data from given table
+---if we want only specific column data then
+we need to specify those column name in select query.
+select colNames from tableName;
+
+---if we want to fetch data of any specific record(row) data then we should have to use 
+WHERE clause in select query
+
+select *from tableName where colName='value';
+
+
+Create one database of name Banking
+create table-Bank
+columns- accountNumber,bankName,branch,
+Total balance,creditAmt,debitAmt,availableBal
+ then
+add data into table.
+............................................
+12June
+MySQL maths operations..
+sum(),min(),max(),count(),avg()
+like oprator
+%av,av%
+delete drop truncate
+as
+
+sum(colmnName)
+------------------------------------------------
+13June
+Primary key...
+---only allowed unique values for primary key column.
+---we cannot add duplicate value for primary key column.
+******Joins
+---if we want data from more than one table at a time()in one table then have to use join.
+........
+inner join:
+--only we get matching data from both table.
+
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+
+Outer join:
+left outer join
+--matching data from right table and complete data from left side table
+
+SELECT column_name(s)
+FROM table1
+left outer JOIN table2
+ON table1.column_name = table2.column_name;
+
+right outer join
+--matching data from both table and remaining data from right side table.
+----------------------------------------
+16June
+
+Table: students
+Columns:
+studId int 
+studName varchar(20) 
+studAddress varchar(20) 
+course varchar(20) 
+branch varchar(20) 
+totalFees int 
+paidFees int 
+balFees int
+
+Group By:
+--Used to divide the table into multiple parts/group based on the specific COLUMNS.
+
+Having in clause:
+--Used to specify the specific condition on the group..
+(It works like where condition BUT Having only use if there is group by )
+
+
+--------------------------------------
+17June
+
+Alter
+--we can add column in exiting table
+--we can drop any column from existing table
+--we can change the type of existing column from table
+--we can rename column name
+--we can add primary key in table
+
+Alter table tableName add (colunmNme type(size),colunmNme type(size),....)
+
+Alter table tableName drop column columnName;
+
+alter table tableName modify columnName (New DataType);
+
+alter table tableName rename column columnNameOLD to columnNameNew;
+
+alter table tableName add primary key (columnName);
+
+
+Offline N15_Test Core java,Mysql,JDBC
+..........................................
+01july
+
+JDBC..
+prepared stat
+?,?...placeholder
+set
+....................................................
+07July....FE
+HTML.......
+<html>
+<meta>
+<head></head>
+<title></title>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<th>Email</th>
+</tr>
+<tr>
+<td>Ashwini</td>
+<td>a@s.com</td>
+</tr>
+<tr>
+<td>Ashwini</td>
+<td>a@s.com</td></tr>
+<tr>
+<td>Ashwini</td>
+<td>a@s.com</td>
+</tr>
+
+</table>
+</body>
+
+</html
+
+.....................................
+10July
+
+CSS....
+3Types:
+tagName{
+property: propertyValue,
+property: propertyValue
+}
+Inline..........inside HTML tag
+Internal..........within html file
+<style>
+h2{color: red}
+///CSS
+</style>
+External.........have to make separate file for css code
+then import that file in our html file.
+
+
+id and class
+.................................
+11July
+JS
+................
+let or var
+function(){}
+alert --pop up windows>without handling this alert we cannot do anything on our mail application.
+
+<script>
+
+
+</script>
+.........................................
+15July
+Repository-
+local--personal,central-public and remote-orgnisation
+Maven--
+Maven project--
+well structure manner
+proper folder format
+
+.m2()
+--one time
+--pom.xml
+>>need to add dependencies as per our project requirements.
+------------------------------
+16July
+Hibernate
+Build mgnt tool-maven
+pom.xml--dependencies
+mysql-connector-java
+hibernate-core
+hibernate.cfg.xml file
+Entity class...same name with table name
+attributes(variables)....column names...private
+generate getter,setter
+Configuration---
+configure()
+select---load()
+addAnnotedClass()
+SessionFactory.....
+session
+load()...select data from table....EntityClass,primary key
+---------------------------
+17July
+save()......to save or insert data into table
+saveOrUpdate()....insert and update data into table
+
+Transaction 
+using constructor can add values
+commit
+...............................
+21July
+Spring Boot
+postman --- Rest API's
+http request
+get() 
+post()
+put()
+delete()
+http request status code:
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid requestMaven
+mappings
+GetMapping
+postMapping
+----------------------------
+22July
+Collection>Folder>request
+...................................
+http://localhost:8080/givestudentdata?nameOfTeam='Kunjal'
+...........................................
+23July
+post
+@RequestBody
+
+@SpringBootApplication
+controller---@Restcontroller
+Service....business logic  @componant @service
+Dao....database code @Repository
+
+A a=new A();
+class controller{
+@autowired
+Service obj;
+
+}
+..............................
+31July
+SB MVC
+1)login.jsp
+form....HTML
+Username
+Password
+submit button
+2)UserPage.jsp
+(logic Arraylist-username and pwsd)
+<%  
+//java logical code
+%>..scriptlate
+
+Controller API
+1
+2......
+specific username can login
+after login 
+1)if username matched then navigate to next page
+2)if not matched then will show an error and remains on the logn page
+
+@ModelAttribute
+Model
+addAttribute
+request.getAttribute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
