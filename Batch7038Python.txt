@@ -1,0 +1,1383 @@
+20Jan
+demo
+.......
+wish with smile
+Name
+education
+experience
+strength
+aim/goal
+hobbies
+weakness
+...................
+
+PYTHON Batch
+..............
+easy to learn
+it is strong for real-word application.
+........
+build logical concept,practically
+
+practice mandatory
+ask doubt without any fear
+regularity
+theoretically + coding
+two way communication
+
+.............
+time daily session mon to fri 7.30-9:00
+access course
+live session
+daily rec
+document
+
+technical support 10-6
+customer support
+.........................
+Basic:(Core python)
+variable,data type,operators
+coditions & loop
+Functions
+list,tuple,set,dictionary
+file handling
+exception handling
+oops concepts
+basic()
+............................
+developer
+testing
+deploy/live
+manual
+Uses:
+Automation testing
+Data science & Data Analysis(Pandas,NumPy)
+Mchin learning
+AI tool
+Web dvelopment
+>>backend devloper
+>>API
+DvOps & Cloud
+Desktop and game application
+.................
+Google
+NetFlix
+Instagram
+FB
+Amazon
+Infosys,TCS,Accenture
+
+python:
+
+Easy syntax
+less code
+Huge libraries
+high demand
+
+---
+21Jan
+
+python is hybrid>
+it is combining compilation and interpretations
+
+Translators:
+Compiler and Interpreter
+Compiler>converts the program into machine code before execution
+10 line of code....7
+compile time error
+
+Interpreter>converts and executes code line by line
+
+low level lang...machine 0101(binary)
+High level lang...
+
+............................
+22Jan
+
+Python programming paradigms:
+--procedural programming
+>>involves set of instructions
+>>break the program into smaller part/task/pieces called procedure
+
+--oops concept
+>>combining data and operations together
+>>class and object
+>>python is naturally object oriented...(everything is an object).
+
+--modular programming
+>>libraries or modules
+>>extension of procedural programming
+>>modules contains-object,procedures,fuctions,variables.
+
+--functional programming
+>>mathematical/stat fuctions f'()
+>>IMP for data science,machine learning and AI application
+
+2000 100 100 100 100
+class Batch{
+variable
+method1(){logic}
+method2(){logic}
+method3(){logic}
+Batch obj=new Batch();
+obj.
+}
+
+
+firstNum,secondNum
+result=firstNum+secondNum
+
+def task1():
+ 	print("Task1 completed")
+def task2():
+ 	print("Task2 completed")
+
+def main_program():
+ 	task1()
+ 	task2()
+
+main_program()
+
+................................................
+23Jan
+installation:
+Editor---vscode
+python shell
+
+cmd>>
+python --version
+
+Open IDLE
+--Integrated Devlopment & learning Environment
+
+print('gfjhbj')
+
+..................................................
+
+28Jan
+
+resume--flexible,don't mention numbers
+4-5 interview for trial
+
+skill:
+
+UI/UX......
+
+3+ current.....
+2017 to 2025
+..................
+
+Aptitude
+GD
+Technical round2
+HR............pckg
+offer letter
+
+salary---company
+Training ---3/2 months
+test3.....cleared
+
+internal interview/project interview
+interview....project bandda
+
+bench...we dont have any project to work in company
+
+31days
+
+................
+salary --- client
+laptop
+access
+......................
+team
+...................................
+29Jan
+Installation
+Basic python
+
+download python
+Rules to write program/std of organisn
+---naming convention should be follow
+---avoid complex code
+---name should be simple and meaningfull
+
+data type,variables
+numerical,charcter(string)
+Data type:
+int .......numerical without decimal num 44
+float......only decimal num 4.6
+String...sequence of chars dhgfhgf----"" / ''
+\\\\\\\\char....single alphabate d\\\\\\\\\\\\\\
+
+= ..... assignment operator
+
+variables:
+
+s=80
+data=20
+
+s
+data
+
+java
+...........
+int a=10;
+String str="batch";
+System.out.println("print the output"+ result);
+
+python
+............
+a=10
+str="batch"
+str='batch'
+print("this is the new batch" , result)
+
+--in python there is no need to write data type explicitly.
+
+..............................................
+30Jan
+Data types
+Variables
+
+X=20   - integer type
+X=40.7 - float type
+X='python' - string type
+
+Dynamically typed
+--while defining variables we dont have to give its data type explicitly like in other languages.
+
+type(varName)-we can find the data type of given variable
+
+--<class 'int'> : data type belongs to a class of integer
+
+--every thing in python is an object and every object have its own class.
+
+Data types:
+
+Numeric:
+----int(numeric),float(decimal),bool(t/f),complex(a=b+ic)
+Sequence:
+----list,tuple,string
+list- collection of values in single var, mutable(can modify).
+[]
+[3,5,7].........list
+
+tuple- collection of values , immutable(cannot modify)
+()
+(5,7,8).........tuple
+Set:
+----set, frozenset
+Set:
+{}
+{55,66}
+frozenset--immutable
+
+Dictionary:
+----dict
+
+--collection of key-value pair data
+name : "fg"
+rollnum : 45
+
+Variable--
+a=70
+a---name of variable
+70---data/value
+.......................
+Declaration & initialisation
+a=70
+
+--in python we need to Declaration & initialisation the var(a=5)
+--we cannot only Declare the var (eg. a)
+
+--we can Declaration & initialisation multiple var in single statement.
+name,price,weight='Pen',34,10
+
+---
+02Feb
+print()
+input()
+
++,-,/,*
+
+Area of triangle=1/2bh
+.........................................
+03Feb
+Operators and Expressions
+
+Arithmatic Operators
+>> +,-,\\\\\\\\\\\\\\\*,/,//,%,\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*
+>> division (/) get the ans from Quotient(either decimal or without decimal)
+>> float division (//) 
+if we dont want ans in float.it will give only int num
+>> mod(%)  we get ans from Remainder
+>> \\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\* ------(3)2
+Assignment Operators:
+>>  =+,=-,=\\\\\\\\\\\\\\\*,=/,=//,=%,=\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*
+
+a+=b
+a=a+b
+
+
+counter=+1.....counter=counter+1
+a+=b......a=a+b
+a*=b......a=a*b
+
+Relational / Comparision Operators:
+>>   <,><=,>=,==(is equal),!=(not equal)
+>> always it will return true or false
+3<5
+Logical Operators:
+>>   and , or ,not
+>> always it will return true or false
+and >>> if both conditions true then it will return true
+or  >>> if anyone condition is true then will return true
+(1st)and(2nd)
+  T  and F     F
+  F  and T     F
+  F  and F     F
+  T  and T     T
+ 
+(1st)or(2nd)
+  T  or F     T
+  F  or T     T
+  F  or F     F
+  T  or T     T
+
+............
+bitwise Operators*******
+special Operators*******
+
+...........................
+04Feb
+Conditional Statements
+
+--Control statements that are control flow of execution of state so that they can execute repeatedly and randomly.
+
+--repeatedly---condition
+
+if
+--
+if condition:
+ 	statements
+
+--we can see indentation in every syntax of python.Indentation is imp in python.
+it is used in the beginning of the state.
+
+--if condition: check condition--if condition is true will execute statement
+and condition is false then it goes to out of block
+
+if a<b:
+ 	a is less than b
+...................................
+if_else
+
+if condition :
+ 	statement
+else :
+ 	statement
+
+
+--if condition: check condition--if condition is true will execute statement
+and condition is false then it goes to the out of block.
+
+
+
+a=10
+b=30
+print(a>b)
+---Relational/comparision and logical operator always return output in the form of true and false only.
+
+if a>b :
+ 	print("a is greater")
+else :
+ 	print("ubjkkkkkkkk")
+>>check whr num is -ve or +ve (num shoulb be from user)
+
+input()
+if_else
+num<0......negative
+num>0......positive
+
+number=int(input("Enter your number: "))
+if number<0 :
+ 	print("This number is negative")
+else :
+ 	print("This number is positive")
+
+....................................
+elif
+
+if number<0 :
+ 	print("This number is negative")
+elif number=0 :
+ 	print("This number is zero")
+else :
+ 	print("This number is positive")
+
+
+
+WAP to check person is eligible voting or not.
+
+if_else
+eligible>=18......yes
+eligible<18.......No
+
+
+WAP to check given num is even or odd.
+
+if_else
+
+%
+ 2 divide REm=0
+
+num%2==0
+
+......................................................................
+
+05Feb
+Conditional Statements Examples
+
+..........................
+WAP to check students has passed or failed,by taking their marks.
+(marks should be entered by user)
+
+
+input()
+3 subject,3 marks
+marks>=45 pass
+marks<45 fails
+and
+........................
+Wap to check if person is authorised for admin access or no
+
+userName---String.....''
+or
+if-else
+
+...........................................
+WAP to check if given char is vowel or consonant.
+if_else
+char-single alphabate
+
+vowel-a,e,i,o,u
+....................................
+09Feb
+nested if
+
+WAP to accept input from user and check which one is elder among them.
+
+input()
+names
+age
+...................................
+
+if_else
+elif
+......................................
+WAP to check discount on amount and pay
+input()
+amount --- 3
+if()
+10%,20%,30%,50%
+
+payamount=amount-dicounAmount
+
+amount=float(input---accept)
+
+amount<=1000......10%
+amount>1000 and amount<=5000----20%
+amount>5000 and amount<=10000----30%
+amount>10000--------------------50%
+dicontAmt=amount*x/100
+pay=amount-dicontAmt
+
+..................................
+12Feb
+
+1)find the greater number between two numbers.
+2)check whether  a number is multiple of 3 or 7.
+3)print "pass" if marks>=35 otherwise "Fail".
+4)Create a simple calculater using operator(+,-,*,/)
+5)input temp and print (cold<15)(warm 15-30)(Hot>30)
+6)Input any day number from 1 to 7 and print day name.
+7)Check whether a number is :
+positive->then check and print even or odd
+Negative-> print "Nagative number"
+8)check login credentials(login system):
+user can login with only correct username and pswd correct
+credentials otherwise will show error msg
+9)if withdrawal amt is available in account then allow or print insufficient bal
+10)Movie ticket pricing
+age<5 -> free,5-18 -> 100,19-60 -> 150 senior citizen->70
+
+
+ashwini@thekiranacademy.com
+
+............................................................
+
+13Feb
+while
+else
+if
+break
+online test
+
+	if condition
+	....
+	.....
+  else:
+   ...
+   .....
+............
+...........
+-----------------------------------------------------
+while condition.........................will execute multiple time x<=5
+......
+.....
+......
+if x==3
+	break
+else:
+.......
+.......
+
+break
+
+a+=b...........a=a+b
+count+=1.......count=count+1
+..........................................
+
+16Feb
+while example
+break
+continue
+pass
+if condition :
+else:
+while condition :
+
+increment by 1 and decreament by 1
+a++
+a--
+
+WAP to print numbers from 1 to 10
+o/p:  1 2 3 4 ....10
+
+num=1
+while.....num<=10 OR num<11
+print(num)
+num increament by 1 (num=num+1 / num+=1)
+
+WAP multiplication of table of a given num(num should be enterd by user)-5
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+...
+2x10=20
+
+print(num,"X",count,"=",num*count)
+
+.............................
+
+17Feb
+
+For Loop
+While Loop: work on condition
+
+Loop- it is useful for repeatedly executable state
+
+start index=0
+end index= length-1
+
+
+for(int i=1;i<10;i++){sop(i)}...............java
+
+python.....
+
+msg='Batch'
+
+for varName in givenVar:
+	print(varName)
+
+for x in msg:
+     print(x)
+
+
+B
+a
+t
+c
+h
+
+Input()
+print()
+
+Range()
+--it is a function
+
+--range(5)
+--0,1,2,3,4  it will stop at just the one number before the last number (last num=givenRange-1)
+
+--range(5,10)    5-starting num and  (10-1)=9 last number
+--it will print   
+5,6,7,8,9
+
+--range(1,10,2) 1 3 5 7 9
+
+for i in range(5):
+print(i)
+
+
+nested for loop
+
+for i in range(0,3):     i=0 1 2        Outer loop(row)          #0,1,2
+	for j in range(0,3):       inner loop  #0,1,2
+	print(i,j) 
+
+(0,0) (0,1) (0,2)
+(1,0) (1,1) (1,2)
+(2,0) (2,1) (2,2)
+
+..................................................................
+
+18Feb
+For loop examples
+match-case(switch-case)
+
+
+Wap to print even numbers from 1 to 20:
+
+%2==0
+for loop 
+range(1,21)......1 to 19
+
+print odd from 20 to 40
+
+print sum of 1 to 10 numbers
+
+print 5X5 star(*) matrix
+
+*****
+*****
+*****
+*****
+*****
+switch-case...........java
+
+match-case..............python
+
+if_elif_else
+
+
+one variable will check multiple option/cases
+
+value3
+match varName:
+	case value1:1
+	case value2:2
+	case value3:3
+	case value4:4
+	case _:
+	
+Input any day number from 1 to 7 and print day name.
+.......................................
+19Feb
+ String and String method
+
+String:
+
+--collection of sequence of alphabets used to form words,sentences
+--it works as data type in programming
+--it is built in class ('str') to handle strings.
+--String support various methods and operators.
+--String is an immutable(we cannot change the value of original string)
+--"",'',
+--string store data in the form array which data with index position.
+--positive case: index start with 0 and ends with (length-1) and index increased by 1 (Left to right)
+str="Hello"
+--python supports negative indices:
+index starting at -1 and last index (Right to left) and increased by -1
+--The length of string is the total number of characters it contains,including 
+spaces and special characters
+--len():
+eg. len(str) it will return 5
+type()
+
+name="@s_hwini123 Digrase".....19
+
+
+"""",'''''
+
+concat
+repeatation
+3*2=3X2=6
+
+"hi"*3=hihihi
+
+----------------------------------------------------------
+23Feb
+String & String methods
+
+Indexing and slicing 
+
+start 0th and end lenght
+
+range(start,stop,step)
+syntax:
+string[start:stop:step]
+
+start: beginning index of string(inclusive)
+stop : ending index(exclusive)
+step : interval(by default 1)
+
+[start:stop:step] all can be omitted
+
+[index]
+
+Membership operations:
+str="core python"
+in ,not in
+--return in true and false
+--check if substring or character exist in given string
+(==,!=)
+
+String comparison:
+<,>,<=,>=,==,!=
+
+--based on dictionary order(lexicographic order)
+
+--Uppercase letters A to Z ASCII(65-90)
+--lowercase letters a to z ASCII(97-122)
+
+--------------------------------------------
+24Feb
+String methods
+class Batch{
+
+variables 
+methods
+}
+built in function:
+input()
+type()
+print()
+dir()----we can see list of built in methods and attributes from str class
+
+str......various method
+find()
+index()
+replace()
+split()
+count()
+join()
+endswith()
+isalpha()
+lower()
+upper()
+
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+......................................................
+
+25 Feb
+String Methods
+
+capitalize().........first letter capital...all others lower case
+casefold()...........converts all string in lower case
+swapcase()...........lowercase>Upper case ,Upper case>lower case
+title()..............First letter of each word is capital
+
+input()
+replace(" ","")
+
+reverse the string
+[::-1]
+
+hello  olleh
+
+palindrome
+
+madam madam
+
+------------------------------------------------------
+26Feb
+List
+
+primitive types:
+--int ,float,bool,complex(5+i3)
+--it holds single value
+Collection types:
+--list,tuple,set,dictionary
+--it holds multiple grouped values
+--data structure due to their capacity to maintain grouped data
+
+list:
+--can define list in []
+--ordered: maintain sequence of elements
+--mutable collection of elements: can add,remove,change elements
+--it can store different types of data:(heterogeneous data)
+can store different data types data in a single list
+--positions of elemets will considerd with indecies
+positive: start index=0 end=lenght-1 (forword)
+negative: start index=-1 (backword)
+--duplicates
+
+list=[1,4,2.0,'ghj',[],1] 
+
+List method:
+
+append()--add elements at the end of list
+clear()--remove all ele
+count()--occurrence of value
+copy()--copy the list
+index()--check the index of value
+insert()--add ele at a specific position
+remove()--remove lel from specific position (first)
+reverse()--reverse the order of list
+sort()---sort the list
+
+
+heterogeneous list data 
+
+l1=[7,3.4,'python',ture,5+6j]
+
+tuple ()
+
+l1=[7,3.4,'python',ture,5+6j]
+
+list()----tuple()
+
+created list by converting tuple to list using list():
+l2=list((3,6,5,7))
+print(l2)
+[3,6,5,7]
+
+created list by converting string to list using list():
+
+l2=list('abcd')
+print(l2)
+['a','b','c','d']
+
+list---group of data>different type of>data type
+
+list=[1,2.3,'python']
+
+list1=[1,2,4,[3,4],5]
+
+print(4 in list1)
+
+1
+2
+3
+[3,4]
+5
+
+[start,stop,step]
+
+using [:] we can get whole list
+..................................
+02March
+range()
+len()
+for.........simple
+for..........indices range(),len()
+while........
+extends()..........
+pop().....remove ele by index and will return that removed ele
+remove().....it will remove 1st occurrence of ele from the list
+clear().....empty list
+reverse()..........ulta list ko
+sort()..............ascending order
+----------------------------
+04March
+Tuple
+------------
+--ordered collection of data
+--different type of data
+--immutable(no changes allowed in created tuple)
+--()
+--tuple()
+--allowed features like indexing,slicing,iteration
+
+tuple:
+>>it is in built python data structure like list
+>>It is ordered collection,support indexing,allow duplicate ele,can contain heterogenous types of data.
+>>tuple is immutable, unlike list(mutable)
+
+list and tuple
+list:[],mutable
+tuple:(),immutable
+
+t1=(1,2,3,7)
+tuple2=(1,2.2,'python')
+t2=tuple([1,2,3,7])
+t2=(1,2,3,7)/////    o/p
+t3=tuple('python')
+t4=tuple(range(1,5))
+t2=()
+t2=(3,)............
+t2=(3)
+t2=10,20,30,40
+(10,20,30,40)
+
+list comprehensions:
+
+[]
+syntax:
+[expression for itemName in iterable if condition]
+
+L1=[X for x in range(1,5)]
+L2=[X**2 for x in range(1,5)]
+L3=[x.lower() for x in 'pYtHon']
+L4=[ x for x in 'ab*cd7e' if x.isalpha()]
+
+Tuple:
+T=tuple(expression for itemName in iterable)
+
+T2=(*(X for x in range(1,5),))
+
+T2=tuple(x for x in range(1,5))
+
+
+............................................
+
+05march
+Online Test
+
+
+
+https://thekiranacademy.com/test > python > on demand test(last option)>Online_7038Test2
+
+-----------------------------------
+06March
+Set
+--{}
+--duplicates not allowed(unique)
+--mutable(can change data)
+--unordered collection
+--indexing and slicing not allowed in set
+--different types of data
+--using add() we can add elements in set
+
+mathematical concept:
+Union |
+Intersection &
+difference -
+symmetric difference ^
+
+
+--set() using this construction
+
+a={1,2,3,4}
+
+list=[1,2,3,4]
+set1=set(list)
+{1,2,3,4}
+print(set1)
+-----------------------------------------
+09March
+Set
+
+Union           |    |=
+Intersection    &    &=
+difference      -    -=
+symmetric difference ^  ^=
+
+
+Adding and deleting elements from set:
+
+Adding method:
+add().....single ele   multiple>TypeError
+update()...multiple ele by interable(list,tuple,string ete)
+copy().....independent set create (shallow copy of set),it will not affect on original set
+
+Deleting method:
+remove()....remove ele from set  >  if ele not found then error
+discard()...remove ele from set BUT will not show any error if ele not found
+pop().....return remove ele
+clear()....all ele remove ,empty set
+
+
+---------------------------------
+11March
+Dictionary
+
+dict={1:'A',2:'N'}
+--collection of key-value pair
+--{}
+--key must be unique(duplicates not allowed)
+--values can be duplicate(itrable>list ,set,tuple,dictionary)
+--key-immutable(string,numbers,tuple)
+--Internally,dictionary use hashtable to store keys and values.
+
+creating dictionary: 
+Syntax:
+DictName={key1:value1,key2:value2,key3:value3,....}
+
+--dict().....constructor use for conversion
+
+
+Method:
+
+dict.keys():return  all keys from dictionary
+
+dict.values(): return all values from dictionary
+
+dict.items(): return all keys and values from dictionary
+
+dict.get(key, default): return the value for a given key,if that key not found in dictionary then it will return default.
+
+dict.update(other_dict): updated dictionary with key-value in another dictionary
+
+dict.pop(key):remove key and return its value
+
+dict.clear(): return empty dict
+
+ex:
+roll_num:studName or 
+
+details={'name':'Ashwini','age'=80 ,'city'='NGP'}
+print(details)
+
+print(details['name'])   //Ashwini
+
+details.keys()
+details.values()
+details.items()
+
+ageValue=details.pop(age)
+
+------------------------------------------------------------------
+12March
+Dictionary
+
+
+zip().......it will combine two separate list in te form of key value pair
+
+Syntax:
+dict(zip(keyList,valueList))
+
+keyList=[11,22,33]
+valueList=[1111,2222,3333]
+D4=dict(zip(keyList,valueList))
+print(D4)
+
+{11: 1111, 22: 2222, 33: 3333}
+
+Combine 2 separate list(key and value) into dictionary using zip() and dict()
+
+enumerate():
+--It will auto generate numeric/integer keys for a list of values.(useful when we want to assign keys in sequential manner).
+
+L4=['one','two','Three']
+D4=dict(enumerate(L4,start=1))// keys starting at 1 from list of value
+print(D4)
+
+--if we are not assigning any start value then keys starting at 0 from list of value
+
+D4=dict(enumerate(L4))
+..................................
+13March
+Functions
+
+--anyword()....function
+--It is a piece of code that perform specific task
+--functions can take input(parameter),perform operation,return output
+--pre defined/built-in function(python dev) and user defined function(hamare  user created)
+
+
+pre defined/built-in function:
+
+print()
+input()
+range(start,end,steps)
+len()
+type()
+max()
+
+Uses/characteristics:
+--helps to break larger program into smaller part of task/program
+--perform specific task
+--take parameters as a input
+--Return output
+--reusable-----write once and use multiple times
+--support modular programming and also its team-based development
+--
+
+syntax:
+
+def functionName(parameter):
+	return result
+
+
+ module
+------------------------------------
+17March
+Functions
+
+def functionName(parameter):
+	return result
+
+
+positional arguments:
+--values are passed to function parameters based on their order
+--if order change then values will be assigned to different
+
+def vol(l,b,h):
+ 	v=l*b*h
+	print(v)
+
+vol(2,3,4)......l=2,b=3,h=4
+
+
+keywords arguments:
+--arguments are passed by explicitly specifying the param name.
+--allow passing arguments in any order
+
+def vol(l,b,h):
+ 	v=l*b*h
+	print(v)
+
+vol(l=2,b=3,h=4)......l=2,b=3,h=4
+
+default arguments:
+
+pop()
+
+range(6)
+
+l=[1,2,3,4,5,2]
+
+l.index(2)
+l.index(2,2)
+
+def vol(l=1,b=1,h=1):
+ 	v=l*b*h
+	print(v)
+
+vol()//1
+vol(2,3,4)//24
+vol(2,3)//6
+
+--if we are trying to use both positional and keyword args then make sure positional agrs must come first
+
+positional only 
+'/'
+def add(a,b,/,c,d)
+>>limits to before '/'
+>>a and b positional way only
+>>after '/' we can give positional or keyword
+
+keywords only
+
+'*'
+def add(a,b,*,c,d)
+
+>>limits to after '*'
+>>a and b any way 
+>>after '*' we can give keyword way only
+-----------------------------------
+18March
+Programming based on functions
+
+1)WAP to return maximum of three number using function-(the key requirements
+to enter  positional-only arguments.)
+
+max(3 param){
+//logic for max num
+}
+
+max()
+
+WAP to calculator simple interest using function (Note user can enter only keyword arguments).
+
+---------------------------------------
+19March
+Online test based on covered topics and aptitude
+Test Name: Online 7038 Test3
+90 min
+120 Que
+
+https://thekiranacademy.com/test > python > on demand test(last option)>Online 7038 Test3
+
+------------------------------------------
+20 March
+Iterator-Generator
+Iterator:
+--iterator is an object
+--to traverse an element one at a time
+--iter() built-in function in python
+--next() built-in function: retrieve next elements
+--StopIteration exception
+--python provides iter() built-in function that takes iterable(list,tuple,set,dectionary,string,range)
+ and it will return an iterator object.
+--uses:iter() and next()
+--u have to create it manually
+
+
+
+Generator:
+
+--its like a iterator only
+--it will traverse elements one by one(lazily)
+--yield keyword:it is replacement of return keyword
+--return : it return complete result.it stops the loop
+--yield: it also return value ,it will continue the loop
+--yield inside a function
+--use: yield
+--python handles everything automatically
+--less code
+--next() built-in function: retrieve next elements
+
+
+-------------------------------
+23March
+Global and local variables
+Recursion
+...................
+d=10//global var
+def fun1():
+d
+	a=20//local var
+	e=30
+	print(a)
+
+print(a)
+
+def fun2():
+d
+	a=20//local var
+	c=30
+	print(a)
+
+print(a)
+
+Local variables:
+--declared inside a function
+--only we can access within a same function
+--local var we cannot access outside the function
+
+Global variables:
+--declared outside a function ,at the script / module level
+--can access anywhere in program(including function)
+--can read inside function without any restriction(freely)
+--using global keyword we can modify the value of global var from fun definition. and we can call that modified value after function calling.
+
+
+Recursion:
+Recursive function:
+--it is a function which call itself(call multiple times) within its own function definition
+--Base case/Base condition
+
+
+i=1
+while(i<=5)
+i+=1
+------------------------------------------
+24March
+Lambda function:
+
+--anonymous function(no name)
+--simple function
+--one line function
+--use functional programming
+--no need of return keyword(it will automatically return expected result)
+--lambda
+
+lambda parameters : expression(logic/condition)
+
+def double(x):
+	return x*2
+
+print(double(3))
+......................
+multi=lambda x : x*2 ......its for only one param
+print(multi(3))
+
+filter(),map(),sorted()---will works on iterables only
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
